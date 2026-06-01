@@ -1,12 +1,21 @@
 # OpenLander
 
-Self-hosted deployments for AI coding agents.
+OpenLander is a self-hosted deployment control plane built for coding agents.
 
-OpenLander is an MCP-native control plane for running apps on your own Docker host. Agents can deploy, redeploy, inspect logs, diagnose failures, and manage service configuration while destructive actions stay behind human guardrails.
+It gives external agents structured tools to deploy, inspect, diagnose, and
+operate apps through MCP, while destructive actions stay scoped, blocked, or
+approval-gated.
 
-- Deploy from Git repositories or public container images
-- Provision managed Postgres, MySQL, Redis, MongoDB, and MinIO services
-- Connect Claude, Cursor, Windsurf, Codex, and other MCP clients
-- Observe deployments, activity, logs, metrics, and service topology in the dashboard
+## What we are building
 
-Start here: [openlander-ai/openlander](https://github.com/openlander-ai/openlander)
+- A deployment runtime agents can operate safely
+- Structured deploy status, logs, diagnostics, services, and approvals
+- A self-hosted path for teams that want infrastructure under their control
+
+## Start here
+
+- Main repository: [openlander-ai/openlander](https://github.com/openlander-ai/openlander)
+- Demo app: [openlander-ai/openlander-demo-app](https://github.com/openlander-ai/openlander-demo-app)
+- Managed services demo: [openlander-ai/openlander-managed-demo](https://github.com/openlander-ai/openlander-managed-demo)
+
+OpenLander is currently in v0.1 public preview.
